@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proficiency Test | Argart</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    
+    <div class="start_btn"><button>Start Argart Proficiency Test</button></div>
+
+
+    <div class="info_box">
+        <div class="info-title"><span>Argart Proficiency Test Rules.</span></div>
+        <div class="info-list">
+            <div class="info">1. You have only <span>15 seconds</span> per question.</div>
+            <div class="info">2. When you select an option, it can't be undone.</div>
+            <div class="info">3. You can't select any option when you run out of Time.</div>
+            <div class="info">4. You can't Quit the Quiz while you're on it.</div>
+            <div class="info">5. You can retake the quiz if you fail.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Back</button>
+            <button class="restart">Next</button>
+        </div>
+    </div>
+
+    
+    <div class="quiz_box">
+        <header>
+            <div class="title">Argart Proficiency Test</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+               
+            </div>
+        </section>
+
+       
+        <footer>
+            <div class="total_que">
+            
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+   
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Congratulations you have completed the Test !!</div>
+        <div class="score_text">
+         
+        </div>
+        <div class="buttons">
+            <button class="restart">Retake Test</button>
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
